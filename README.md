@@ -31,9 +31,9 @@ nest.listCameras((cameras) => {
 	// Find a specific camera
 	let livingRoomCamera = cameras.find((camera) => camera.name === "Living Room");
 
-	// (You need the 'device_id' of the camera to do stuff with it)
+	/* You need the 'device_id' of the camera to do stuff with it */
 	
-	// To turn off the camera (send false/true to turn camera(s) off/on respectively):
+	// To turn off the camera send false/true to turn camera(s) off/on respectively:
 	nest.setCamera(false, livingRoomCamera.device_id, (err) => {
 		if (!err) {
 			console.log("Living room camera is off!");
