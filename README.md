@@ -27,8 +27,11 @@ nest.setConfig(nestConfig);
 
 // List cameras (for example, if you want to get a specific camera's ID)
 nest.listCameras((cameras) => {
+
+	// Find a specific camera
 	let livingRoomCamera = cameras.find((camera) => camera.name === "Living Room");
-	// You need the 'device_id' to do stuff with it
+
+	// (You need the 'device_id' of the camera to do stuff with it)
 	
 	// To turn off the camera (send false/true to turn camera(s) off/on respectively):
 	nest.setCamera(false, livingRoomCamera.device_id, (err) => {
