@@ -1,0 +1,31 @@
+{
+  "name": "node-nest-cams",
+  "version": "0.0.1",
+  "description": "Simple node module for controlling Nest cameras",
+  "main": "index.js",
+  "dependencies": {
+    "form-data": "^2.3.1",
+    "nconf": "^0.8.4",
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/ianwitherow/node-nest-cams.git"
+  },
+  "keywords": [
+	  "nest",
+	  "cameras",
+	  "power",
+	  "api"
+  ],
+  "author": "Ian Witherow",
+  "license": "MIT",
+  "bugs": {
+	  "url": "https://github.com/ianwitherow/node-nest-cams/issues"
+  },
+  "homepage": "https://github.com/ianwitherow/node-nest-cams#readme"
+}
