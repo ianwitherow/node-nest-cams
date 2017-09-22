@@ -7,7 +7,7 @@ Simple node module for controlling Nest cameras. Currently, you can list cameras
 `npm install node-nest-cams`
 
 ## Getting Started
-You'll need to register a product with Nest from their developers site. Instructions here: [https://developers.nest.com/documentation/cloud/register-client]https://developers.nest.com/documentation/cloud/register-client
+You'll need to register a product with Nest from their developers site. Instructions here: https://developers.nest.com/documentation/cloud/register-client
 
 Make sure it has read/write permissions for Camera
 
