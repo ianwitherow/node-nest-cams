@@ -15,7 +15,7 @@ Once this is set up, you'll set the Product ID and Product Secret in the config 
 
 ## Usage and Examples
 
-```
+```javascript
 const nest = require('node-nest-cams');
 
 let nestConfig = {
